@@ -5,7 +5,7 @@
 }
 
 .hero {
-	background-image:url("file:///C:/Users/Hp/Desktop/pic/orchard.png");
+	background-image:url("file:///C:/Users/Hp/Desktop/pictures/orchard.png");
 	background-repeat:no repeat;
 	background-size:cover;
 	
@@ -77,7 +77,7 @@ the first one. Show the links that contains should open and close the topnav(.ic
 #showcase{
 	margin-top: 80px;
 	padding-top: 90px;
-	background-image: url("file:///C:/Users/Hp/Desktop/pic/fruits.png");
+	background-image: url("file:///C:/Users/Hp/Desktop/pictures/fruits.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 600px;
@@ -89,17 +89,53 @@ the first one. Show the links that contains should open and close the topnav(.ic
 	font-size: 20px;
 	line-height: 1.6em;
 }
-
-.myForm {
-	padding: 90px;
-	background: #fff;
-	width: 30%;
+.input-field{
+	margin:20px 0px;
 }
-.myForm input{
-	padding:8px;
+form{
+	margin:30px 180px;
 	width: 100%;
 }
 
+.form-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+button{
+	background: blueviolet;
+	border: none;
+	padding: 10px 20px;
+	color: #fff;
+	margin-bottom: 30px;
+	border-radius: 2px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.d-none{
+	display: none;
+}
+
+.d-block{
+	display: block;
+}
+
+span{
+	background: #fbfbfb;
+	box-shadow: 0 2px 5px #00000052;
+	padding: 5px;
+	line-height: 2;
+	color: red;
+	margin-bottom: 20px;
+}
+
+.dialog{
+	transition: 0.2s all;
+	color: red;
+}
 
 .container{
 	width: 90%;
